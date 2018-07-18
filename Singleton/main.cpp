@@ -7,6 +7,7 @@ Singleton::GC Singleton::GC::gc; // 重要
 
 int main()
 {
+	freopen("out.txt", "w", stdout);
     //Singleton single = Singleton::GetInstance();
 
 	//Singleton *pSingleton1 = Singleton::GetInstance();

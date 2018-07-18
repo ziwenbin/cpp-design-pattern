@@ -25,6 +25,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="singleton.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="notes.txt" />
+    <Text Include="out.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{827DA442-FD52-41EA-80A1-64728E93149E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
