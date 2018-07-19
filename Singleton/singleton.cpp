@@ -37,11 +37,11 @@
 
 
 // 单例 - 懒汉式（双检锁 DCL 机制）
-Singleton *Singleton::m_pSingleton = NULL;
+Singleton *Singleton::m_pSingleton = nullptr;
 
 Singleton *Singleton::GetInstance()
 {
-    if (m_pSingleton == NULL)
+    if (m_pSingleton == nullptr)
 		m_pSingleton = new Singleton();
 
     return m_pSingleton;
